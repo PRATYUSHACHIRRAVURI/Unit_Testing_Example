@@ -10,19 +10,22 @@ namespace Calculator_dl_example
     {
         public int add(int operator1, int operator2)
         {
+            checked{
             return operator1 + operator2;
         }
-
+        }  
         public int subtract(int operator1, int operator2)
         {
+            checked{
             return operator1 - operator2;
         }
-
+        }
         public int multiply(int operator1, int operator2)
         {
+            checked{
             return operator1 * operator2;
         }
-
+        }
         public int divide(int operator1, int operator2)
         {
             if (operator2 == 0)
